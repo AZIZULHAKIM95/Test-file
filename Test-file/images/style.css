@@ -9,31 +9,45 @@ span{
     font-size: 50px;
 }
 .second{
-    background-color: orangered;
-    padding: 0.5%;
+    
+    padding: 10px 20px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-weight: 400;
+    background-image: linear-gradient(limegreen, green);
+    color: bisque;
 }
 .third{
     background-image: url(iu.jpg);
     background-repeat: no-repeat;
-    padding-left: 10px;
+    padding-left: 3%;
 }
 .forth{
     background-image: url(bc.jpg);
     background-repeat: no-repeat;
-    padding-right: 0px;
-    background-position: 5px;
-
+    padding-right: 1%;
+    
 }
 .fifth{
-    background-color: orangered;
-    padding-right: 0.5%;
+    background-image: linear-gradient(limegreen, green);
+    padding: 10px 20px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-weight: 400;
+    color: bisque;
+
+
     
 }
 .photoflex{
     display: flex;
+    width: 100%;
 }
+
 img{
     width: 580px;
     height: 500px;
+   }
+.sixth{
+    padding: 10px;
 }
-
