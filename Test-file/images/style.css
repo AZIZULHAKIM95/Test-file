@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+span{
+    color: limegreen;
+}
+.first{
+    font-size: 50px;
+}
+.second{
+    background-color: orangered;
+    padding: 0.5%;
+}
+.third{
+    background-image: url(iu.jpg);
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.forth{
+    background-image: url(bc.jpg);
+    background-repeat: no-repeat;
+    padding-right: 0px;
+    background-position: 5px;
+
+}
+.fifth{
+    background-color: orangered;
+    padding-right: 0.5%;
+    
+}
+.photoflex{
+    display: flex;
+}
+img{
+    width: 580px;
+    height: 500px;
+}
+section{
+    display: flex;
+}
