@@ -7,6 +7,7 @@ span{
 }
 .first{
     font-size: 50px;
+
 }
 .second{
     
@@ -21,11 +22,13 @@ span{
     background-image: url(iu.jpg);
     background-repeat: no-repeat;
     padding-left: 3%;
+    background-position: left;
 }
 .forth{
     background-image: url(bc.jpg);
     background-repeat: no-repeat;
     padding-right: 1%;
+    background-position: right;
     
 }
 .fifth{
@@ -35,19 +38,29 @@ span{
     text-decoration: none;
     font-weight: 400;
     color: bisque;
-
-
     
 }
 .photoflex{
     display: flex;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 img{
-    width: 580px;
-    height: 500px;
+    width: 650px;
+    height: 550px;
    }
 .sixth{
     padding: 10px;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+.seven{
+    box-shadow: 10px 10px 50px darkgray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 10px solid green;
+    border-top: 10px solid green;
 }
